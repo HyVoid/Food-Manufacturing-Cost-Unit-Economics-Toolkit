@@ -1,0 +1,6 @@
+{
+  "name": "Food Manufacturing Cost & Unit Economics Toolkit",
+  "description": "An interactive SaaS web tool for food manufacturing cost estimation, product unit economics, and break-even analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

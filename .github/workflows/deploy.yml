@@ -1,0 +1,46 @@
+# .github/workflows/deploy.yml
+# GitHub Actions workflow to automate React app deployment to GitHub Pages (gh-pages branch)
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # Step 2: Setup Node.js (Removed 'cache: npm' since package-lock.json is absent in the repository)
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      # Step 3: Install all NPM dependencies
+      - name: Install Dependencies
+        run: |
+          npm install
+
+      # Step 4: Build the Vite production bundle
+      - name: Build Application
+        run: |
+          npm run build
+
+      # Step 5: Deploy the built output ('dist/' folder) to the 'gh-pages' branch
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist
+          branch: gh-pages
+          clean: true
