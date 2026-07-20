@@ -586,9 +586,9 @@ export default function MasterListsTab({
                       <th className="table-header text-left py-3 px-4">Material Code</th>
                       <th className="table-header text-left py-3 px-4">Ingredient Name</th>
                       <th className="table-header text-left py-3 px-4">UoM</th>
-                      <th className="table-header text-right py-3 px-4">Contract price (去税)</th>
+                      <th className="table-header text-right py-3 px-4">Contract price (Excl. Tax)</th>
                       <th className="table-header text-right py-3 px-4">Loss Factor</th>
-                      <th className="table-header text-right py-3 px-4 bg-[#2251FF]/5 text-[#2251FF]">Standard 含损 Cost</th>
+                      <th className="table-header text-right py-3 px-4 bg-[#2251FF]/5 text-[#2251FF]">Standard Cost (Incl. Loss)</th>
                       <th className="table-header text-center py-3 px-4">Actions</th>
                     </tr>
                   </thead>
@@ -634,7 +634,7 @@ export default function MasterListsTab({
                       <th className="table-header text-left py-3 px-4">UoM</th>
                       <th className="table-header text-right py-3 px-4">Procurement Unit Price</th>
                       <th className="table-header text-right py-3 px-4">Assembly Loss</th>
-                      <th className="table-header text-right py-3 px-4 bg-[#2251FF]/5 text-[#2251FF]">Standard 含损 Cost</th>
+                      <th className="table-header text-right py-3 px-4 bg-[#2251FF]/5 text-[#2251FF]">Standard Cost (Incl. Loss)</th>
                       <th className="table-header text-center py-3 px-4">Actions</th>
                     </tr>
                   </thead>

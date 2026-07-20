@@ -148,7 +148,7 @@ export default function AssumptionsTab({
             </div>
           </div>
           <div className="text-[10px] text-neutral-400 mt-4 italic">
-            *直线折旧 (Straight-line depreciation) method is used to amortize overhead.
+            * Straight-line depreciation method is used to amortize overhead.
           </div>
         </div>
 

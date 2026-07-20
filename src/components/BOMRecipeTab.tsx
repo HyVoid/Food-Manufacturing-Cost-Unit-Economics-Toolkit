@@ -114,7 +114,7 @@ export default function BOMRecipeTab({
       {/* Header and Controls */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 bg-white p-6 rounded-xl shadow-sm border-b border-[#E8E8E6]">
         <div>
-          <h2 className="section-title text-xl font-serif-title">BOM Recipes &amp;工艺配方单 (Sheet 06)</h2>
+          <h2 className="section-title text-xl font-serif-title">BOM Recipes &amp; Process Specifications (Sheet 06)</h2>
           <p className="text-xs text-neutral-500 mt-1">
             Define theoretical raw materials and packaging units required to produce one unit of SKU.
           </p>
