@@ -31,6 +31,7 @@ jobs:
       - name: Install Dependencies
         run: |
           npm install
+          npm install --no-save @tailwindcss/oxide-linux-x64-gnu
 
       # Step 4: Build the Vite production bundle
       - name: Build Application
