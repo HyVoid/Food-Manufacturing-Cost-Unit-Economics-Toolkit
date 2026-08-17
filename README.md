@@ -8,7 +8,7 @@
 
 > ## No signup. No installation. Free.
 >
-> 🌐 **Open in Browser**
+> 🌐 **Open in Browser** → [HTML Live Demo](https://hyvoid.github.io/Food-Manufacturing-Cost-Unit-Economics-Toolkit/)
 >
 > 📥 **Download Excel Workbook**
 >
