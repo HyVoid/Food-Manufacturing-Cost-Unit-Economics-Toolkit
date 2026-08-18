@@ -16,22 +16,6 @@
 
 ---
 
-# Screenshots
-
-### Browser Version
-
-<!-- screenshot: browser version -->
-
-Interactive operational dashboard showing SKU profitability, production cost structure, manufacturing overhead allocation, and unit economics.
-
-### Excel Version
-
-<!-- screenshot: excel version -->
-
-Formula-driven workbook with transparent calculation sheets, allocation engine, validation rules, and executive dashboard.
-
----
-
 # What It Helps You Track
 
 - True manufacturing cost per SKU instead of relying on standard BOM estimates alone.
