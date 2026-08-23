@@ -6,7 +6,9 @@
 
 **Understand the true manufacturing cost, unit economics, and profitability of every SKU using a lightweight browser or Excel workbook—no installation, no signup, and no ERP required.**
 
-> ## No signup. No installation. Free.
+**No signup. No installation. Free in your browser.**
+
+Try the browser version for free. If you need the Excel version, you can buy it with a 7-day money-back guarantee.
 >
 > 🌐 **Open in Browser** → [HTML Live Demo](https://hyvoid.github.io/Food-Manufacturing-Cost-Unit-Economics-Toolkit/)
 >
