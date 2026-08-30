@@ -12,7 +12,7 @@ Try the browser version for free. If you need the Excel version, you can buy it 
 >
 > 🌐 **Open in Browser** → [HTML Live Demo](https://hyvoid.github.io/Food-Manufacturing-Cost-Unit-Economics-Toolkit/)
 >
-> 📥 **Download Excel Workbook** → [purchase link](https://alexhasgreatestuff.gumroad.com/l/wtcwzb)
+> 📥 **Download Excel Workbook** → [purchase link](https://alexhasgreatestuff.gumroad.com/l/wtcwzb?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=food-manufacturing-unit-economics)
 >
 > Use whichever format fits your workflow. The browser version is ideal for quick analysis and sharing, while the Excel version provides a fully transparent formula-based implementation suitable for finance, operations, and manufacturing teams.
 
