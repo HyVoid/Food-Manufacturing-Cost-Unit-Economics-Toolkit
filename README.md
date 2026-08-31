@@ -10,7 +10,7 @@
 
 Try the browser version for quick COGS estimates. If you need to save your factory data securely for monthly reporting, you can download the full Excel workbook with a 30-day, no-questions-asked money-back guarantee.
 
-> 🌐 **Test the Calculator** → [Try the Free Food Manufacturing Cost Web Demo](https://hyvoid.github.io/Food-Manufacturing-Cost-Unit-Economics-Toolkit/)
+> 🌐 **Test the Calculator** → [Try the Free Food Manufacturing Cost Web Demo](https://hyvoid.github.io/food-manufacturing-cost-calculator-excel/)
 >
 > 📥 **Get the Spreadsheet** → [Download the Full Unit Economics Excel Template (30-Day Guarantee)](https://alexhasgreatestuff.gumroad.com/l/wtcwzb?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=food-manufacturing-unit-economics)
 
