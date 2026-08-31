@@ -12,7 +12,7 @@ Try the browser version for quick COGS estimates. If you need to save your facto
 
 > 🌐 **Test the Calculator** → [Try the Free Food Manufacturing Cost Web Demo](https://hyvoid.github.io/Food-Manufacturing-Cost-Unit-Economics-Toolkit/)
 >
-> 📥 **Get the Spreadsheet** → [Download the Full Unit Economics Excel Template (7-Day Guarantee)](https://alexhasgreatestuff.gumroad.com/l/wtcwzb?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=food-manufacturing-unit-economics)
+> 📥 **Get the Spreadsheet** → [Download the Full Unit Economics Excel Template (30-Day Guarantee)](https://alexhasgreatestuff.gumroad.com/l/wtcwzb?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=food-manufacturing-unit-economics)
 
 Use whichever format fits your production workflow. The browser version is ideal for a single-session margin check, while the Excel version provides a fully transparent, formula-based financial model suitable for continuous FP&A (Financial Planning & Analysis) and daily operations.
 
