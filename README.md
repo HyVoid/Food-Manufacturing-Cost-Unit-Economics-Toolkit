@@ -1,445 +1,170 @@
-# Food Manufacturing Cost & Unit Economics Excel Toolkit
+# Food Manufacturing Cost & Unit Economics Excel Template
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-success)
 ![Tool](https://img.shields.io/badge/Tool-Decision%20Support-orange)
 
-**Understand the true manufacturing cost, unit economics, and profitability of every SKU using a lightweight browser or Excel workbook—no installation, no signup, and no ERP required.**
+> **Food Manufacturing Cost Calculator & Unit Economics Excel Template**: Calculate the true COGS (Cost of Goods Sold), allocate factory overhead, analyze batch yield losses, and determine precise SKU profitability without complex ERP software. A ready-to-use spreadsheet solution for food and beverage (F&B) and CPG businesses.
 
 **No signup. No installation. Free in your browser.**
 
-Try the browser version for free. If you need the Excel version, you can buy it with a 7-day money-back guarantee.
+Try the browser version for quick COGS estimates. If you need to save your factory data securely for monthly reporting, you can download the full Excel workbook with a 7-day money-back guarantee.
+
+> 🌐 **Test the Calculator** → [Try the Free Food Manufacturing Cost Web Demo](https://hyvoid.github.io/Food-Manufacturing-Cost-Unit-Economics-Toolkit/)
 >
-> 🌐 **Open in Browser** → [HTML Live Demo](https://hyvoid.github.io/Food-Manufacturing-Cost-Unit-Economics-Toolkit/)
->
-> 📥 **Download Excel Workbook** → [purchase link](https://alexhasgreatestuff.gumroad.com/l/wtcwzb?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=food-manufacturing-unit-economics)
->
-> Use whichever format fits your workflow. The browser version is ideal for quick analysis and sharing, while the Excel version provides a fully transparent formula-based implementation suitable for finance, operations, and manufacturing teams.
+> 📥 **Get the Spreadsheet** → [Download the Full Unit Economics Excel Template (7-Day Guarantee)](https://alexhasgreatestuff.gumroad.com/l/wtcwzb?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=food-manufacturing-unit-economics)
+
+Use whichever format fits your production workflow. The browser version is ideal for a single-session margin check, while the Excel version provides a fully transparent, formula-based financial model suitable for continuous FP&A (Financial Planning & Analysis) and daily operations.
 
 ---
 
-# What It Helps You Track
+## What This Food Production Costing Tool Solves (Pain Points vs. Solutions)
 
-- True manufacturing cost per SKU instead of relying on standard BOM estimates alone.
-- How labor, utilities, depreciation, and factory overhead affect product profitability.
-- Which products actually meet target gross margin after all manufacturing costs are allocated.
-- How production volume changes influence unit cost and break-even performance.
-- Whether cost increases originate from raw materials, packaging, labor, or factory operations.
-- Executive-level profitability indicators without requiring an ERP implementation.
-
----
-
-# Quick Start Workflow
-
-### 1. Configure operating assumptions
-
-Begin by entering the global parameters that define how your factory operates. Typical examples include electricity rates, water costs, depreciation periods, target gross margin, allocation methodology, and other manufacturing assumptions. These values are maintained on a dedicated **Assumptions** sheet and normally require only occasional updates.
-
-### 2. Import existing operational data
-
-Paste production records, SKU master data, BOM recipes, material prices, packaging costs, payroll summaries, and monthly factory expenses into the corresponding input worksheets. Existing exports from accounting software, ERP systems, MES platforms, or even ordinary spreadsheets can be used directly without restructuring the workbook.
-
-### 3. Review the results
-
-Navigate to the Dashboard, Unit Cost Analysis, Margin Analysis, or Spending Map. Every calculation updates automatically, allowing manufacturing, finance, and operations teams to review profitability, cost allocation, and executive KPIs immediately.
-
-### 4. Refresh on a regular schedule
-
-When a new accounting period begins, simply replace or append the latest operational data. The workbook recalculates automatically without rebuilding formulas or modifying workbook structure.
-
-**Set a few key parameters. Drop in your existing data. Get the analysis. Refresh whenever new production data becomes available.**
+- **Pain Point:** Guessing product margins based only on recipe ingredients.
+  **Solution:** Calculates **True SKU Manufacturing Cost** by integrating standard BOM (Bill of Materials) estimates with actual production floor realities.
+- **Pain Point:** Unexplained margin erosion at the end of the financial period.
+  **Solution:** Maps exactly how **direct labor utilization, factory utilities, equipment depreciation, and manufacturing overhead (MOH)** impact your bottom line.
+- **Pain Point:** Blindly pricing wholesale or retail products.
+  **Solution:** Reveals which CPG products actually meet your **Target Gross Margin** after all indirect manufacturing costs are properly absorbed.
+- **Pain Point:** Unpredictable break-even points when scaling production.
+  **Solution:** Models how production volume fluctuations influence **Unit Economics and Break-Even Analysis**.
+- **Pain Point:** Inability to pinpoint the root cause of cost spikes.
+  **Solution:** Isolates variances so you know instantly if cost increases stem from **raw material inflation, packaging waste/yield loss, overtime labor, or idle factory time**.
 
 ---
 
-# Why I Built This
+## Quick Start Workflow: How to Calculate Manufacturing Costs
 
-Many small and growing food manufacturers know exactly how much they spend each month but still struggle to answer a much simpler question:
+### Step 1: Configure Factory Operating Assumptions (Parameters)
+Begin by entering the global parameters that define your production facility. Set up your electricity rates, water costs, equipment depreciation schedules, target gross margin thresholds, and preferred overhead allocation methodology. These are stored on the **Assumptions** sheet for easy scenario planning.
 
-> **How much does it actually cost to produce one unit of each product?**
+### Step 2: Import Production Data & BOM Recipes (Inputs)
+Paste your actual production batch records, SKU master data, BOM ingredient recipes, material procurement prices, packaging costs, payroll summaries, and monthly operating expenses (OpEx). You can paste existing data exports straight from QuickBooks, Xero, or your warehouse management system directly into this costing template.
 
-Raw materials are usually well understood because BOMs already exist. The real uncertainty begins after production starts.
+### Step 3: Run the Cost Allocation Engine (Analysis)
+Navigate to the Executive Dashboard, Unit Cost Analysis, or Margin Spending Map. The built-in dynamic arrays automatically allocate pooled factory resources to individual SKUs, giving operations teams immediate visibility into true COGS and SKU-level profitability.
 
-Factory payroll, equipment depreciation, utilities, maintenance, packaging losses, and shared manufacturing expenses often remain pooled together as monthly accounting totals. Products appear profitable simply because those shared costs have never been allocated consistently.
+### Step 4: Refresh Monthly Financials (Maintenance)
+At the close of a new accounting period, replace the old operational data with the latest month's production numbers. The dashboard updates automatically, providing a rolling view of your factory's financial health.
 
-That creates a dangerous decision problem.
-
-A product may appear to deliver a healthy gross margin when evaluated only against its standard recipe cost. After allocating actual labor, utilities, and manufacturing overhead, the same SKU may become one of the least profitable products in the portfolio.
-
-For example:
-
-Before using this framework, management might conclude that a premium beverage generates a 48% gross margin based solely on ingredient costs.
-
-After allocating actual production labor, equipment depreciation, factory utilities, and packaging losses, the true gross margin may fall below the company's minimum profitability target.
-
-The decision changes immediately.
-## Common Food Manufacturing Problems This Solves
-
-| Problem | Without This Tool | With This Tool |
-|----------|-------------------|----------------|
-| Standard BOM cost is mistaken for total manufacturing cost | Pricing decisions ignore labor, utilities, depreciation, and overhead, creating misleading profitability estimates. | Standard material costs are automatically combined with allocated operating expenses to produce a complete unit manufacturing cost. |
-| Factory expenses are tracked monthly but cannot be linked to products | Finance knows total monthly spending, but operations cannot explain which products consume those resources. | Labor, manufacturing overhead, and utilities are allocated consistently to every SKU using configurable allocation methods. |
-| Product profitability changes without a clear explanation | Managers see shrinking margins but cannot determine whether raw materials, labor, packaging, or factory expenses caused the change. | Cost components remain separated, making the primary cost driver immediately visible. |
-| Shared manufacturing resources create pricing distortions | High-volume products subsidize low-volume products, leading to poor pricing and production decisions. | Shared expenses are distributed systematically, providing a more reliable picture of SKU-level profitability. |
-| Executive reporting requires manual spreadsheet consolidation | Finance teams spend hours combining production, purchasing, payroll, and operational reports every month. | Dashboard metrics update automatically after refreshing source data, reducing repetitive reporting work. |
-| Break-even analysis becomes outdated after operational changes | Pricing and production decisions continue to rely on historical assumptions that no longer reflect current operations. | Every reporting period recalculates contribution margin, gross margin, and break-even performance using current operational data. |
+### Step 5: Scale from Free Trial to Permanent Excel Workflow (Action)
+> **Ready to standardize your monthly reporting?** After testing your numbers in the single-session browser tool, [Download the Excel Workbook Version](https://alexhasgreatestuff.gumroad.com/l/wtcwzb) to securely save your historical factory data, customize the allocation formulas, and permanently integrate this toolkit into your company’s monthly financial close process.
 
 ---
 
-# Who This Is For
+## Why I Built This CPG Profitability Tracker
 
-This toolkit is designed for organizations that need practical manufacturing cost visibility without implementing a full manufacturing ERP.
+Many small to mid-sized food manufacturers (bakeries, breweries, snack brands) track aggregate monthly spending perfectly but still struggle to answer a fundamental business question:
 
-It is particularly suitable for:
+> **How much does it actually cost our factory to produce exactly one unit of this specific product?**
 
-- Food and beverage manufacturers building their first structured cost accounting model.
-- Finance managers responsible for manufacturing cost analysis and monthly reporting.
-- Operations managers evaluating production efficiency and factory utilization.
-- Cost accountants establishing standardized SKU profitability calculations.
-- Manufacturing consultants supporting factory improvement or digital transformation projects.
-- Startup production teams that need reliable unit economics before scaling operations.
+Raw material costs are easy to track because standard BOMs exist. The financial blind spot occurs on the production floor. 
 
-This workbook is **not** intended to replace enterprise ERP, manufacturing execution systems (MES), or full financial accounting software. Instead, it provides a transparent analytical layer that helps decision makers understand production economics using data they already collect.
+Factory payroll, equipment depreciation, industrial utilities, maintenance, packaging yield losses, and shared manufacturing overhead remain pooled together as monthly accounting totals. Products artificially appear profitable simply because those shared overhead costs have never been absorbed consistently.
 
-No spreadsheet expertise is required. Open the browser version for immediate analysis or use the Excel version for complete formula transparency and customization.
+**The Danger of Misallocated Costs:**
+Before using this unit economics framework, management might look at a premium beverage and assume a 48% gross margin based solely on wholesale ingredient costs. After systematically allocating actual production line labor, machine depreciation, factory utilities, and packaging waste, the true gross margin falls to 18%—well below the company's profitability threshold. 
 
----
+This template exposes those hidden operational drains immediately.
 
-# About
+## Common F&B Manufacturing Challenges Solved
 
-I build lightweight Excel and browser-based decision-support tools for situations where there are simply too many operational variables to keep in your head at once.
-
-Instead of asking, "How can I automate another spreadsheet?", I usually start with a different question:
-
-> **What information needs to exist in one place so the next operational decision can be made confidently?**
-
-The **Food Manufacturing Cost & Unit Economics Excel Toolkit** is one example of that approach. Rather than functioning as another reporting workbook, it packages a repeatable analytical framework for understanding manufacturing costs, pricing decisions, and SKU profitability using transparent formulas that remain easy to audit and maintain.
+| F&B Industry Challenge | Traditional Spreadsheet Limitations | With This Unit Economics Excel Toolkit |
+|------------------------|-------------------------------------|----------------------------------------|
+| **BOM vs. Actual COGS Disconnect** | Pricing models only look at recipe ingredient costs, ignoring labor, utilities, and overhead. | Standard material costs automatically merge with allocated factory operating expenses to yield a true, fully-loaded unit manufacturing cost. |
+| **Unallocated Factory Overhead** | Finance tracks total monthly spending (OpEx), but operations cannot explain which SKUs drain those resources. | Direct labor, manufacturing overhead (MOH), and utilities are systematically allocated to every SKU via configurable cost-absorption drivers. |
+| **Margin Erosion Mystery** | Managers suffer shrinking gross margins but can't isolate if it's due to material inflation, packaging waste, or labor inefficiency. | Cost components (Material, Packaging, Labor, Overhead) are isolated, making the primary cost driver immediately visible to operations. |
+| **Cross-Subsidization Risks** | High-volume core products quietly subsidize low-volume, complex SKUs, leading to flawed production planning. | Shared manufacturing expenses are distributed equitably based on actual resource consumption, fixing pricing distortions. |
+| **Manual Month-End Reporting** | FP&A teams waste days manually consolidating production logs, payroll, and purchasing data into a master sheet. | The executive dashboard auto-updates using dynamic arrays the moment fresh operational data is pasted, streamlining month-end close. |
 
 ---
 
-# Technical Details
+## Who This Is For: Roles & Use Cases
+
+This toolkit is engineered for F&B organizations that require precise manufacturing cost visibility without enduring a six-figure ERP implementation. 
+
+It is actively used by:
+- **Food & Beverage Finance Managers** needing a *Manufacturing Cost Allocation Excel Template* to close month-end books accurately.
+- **Operations & Plant Managers** searching for a *Production Efficiency Tracker* to measure factory utilization and justify equipment ROI.
+- **Startup CPG Founders** looking for an *F&B Unit Economics Spreadsheet* to validate margins before pitching to retail buyers or investors.
+- **Cost Accountants** requiring a *SKU Profitability Calculator* to set standardized pricing baselines.
+- **Manufacturing Consultants** deploying a lightweight *Digital Transformation Dashboard* for legacy manufacturing clients.
+
+*(Note: This workbook provides a transparent analytical layer bridging operations and finance. It is not a replacement for a Manufacturing Execution System (MES) or foundational accounting software.)*
+
+---
+
+## Ideal Use Cases & F&B Industry Scenarios
+
+This toolkit adapts to various food production environments where batch processing and shared resources complicate standard costing:
+- **Craft Breweries & Beverage Bottling:** Calculate how much liquid loss, bottling time, and vat depreciation actually cost per can.
+- **Commercial Bakeries & Confectioneries:** Track how oven utility costs and direct baker labor impact the margin of high-mix, low-volume pastry SKUs.
+- **Snack & Packaged Foods (CPG):** Determine if the premium packaging on your new product line is destroying the baseline gross margin compared to legacy items.
+- **Co-Packing & Contract Manufacturing:** Justify minimum order quantities (MOQs) and pricing tiers to clients by showing exactly how small runs spike per-unit labor and machine setup costs.
+
+---
+
+## Technical Details
 
 <details>
-<summary>For technical reviewers, Excel practitioners, and collaborators</summary>
+<summary>For technical reviewers, FP&A practitioners, and Excel developers</summary>
 
 ## Workbook Architecture
 
-The workbook follows a layered architecture that separates operational inputs, calculation logic, and executive reporting to improve transparency and maintainability.
+The workbook uses a modular, layered architecture to cleanly separate raw data entry, formula calculation logic, and executive reporting. This ensures high auditability.
 
 ```text
-Input Layer
+Input Layer (Raw Data)
 │
-├── Assumptions
+├── Assumptions (Global Parameters)
 ├── SKU Master
-├── Material Costs
+├── Material Costs (Procurement)
 ├── Packaging Costs
-├── Production Inputs
+├── Production Inputs (Batch Logs)
 │
 ▼
-Calculation Layer
+Calculation Layer (Cost Engine)
 │
-├── BOM Recipe
-├── Direct Labor
-├── Manufacturing Overhead
-├── Utilities Costs
+├── BOM Recipe Consolidation
+├── Direct Labor Allocation
+├── Manufacturing Overhead Absorption
+├── Utilities Costs Distribution
 ├── Cost Allocation Engine
 │
 ▼
-Decision Layer
+Decision Layer (Outputs)
 │
 ├── COGS Unit Cost
-├── Margin & Break-even
+├── Margin & Break-even Analysis
 ├── Spending Map
-└── Executive Dashboard
-```
+└── Executive Dashboard (KPIs)
 
-This separation ensures that operational data entry, allocation logic, and management reporting remain independent while still updating automatically through formula relationships.
+```
 
 ### Data Flow
 
 ```
-Master Data
-        │
-        ▼
-Production Records
-        │
-        ▼
-Material & Packaging Cost Lookup
-        │
-        ▼
-Labor / Overhead / Utility Cost Pools
-        │
-        ▼
-Dynamic Allocation Engine
-        │
-        ▼
-True SKU Manufacturing Cost
-        │
-        ▼
-Margin Analysis
-        │
-        ▼
-Executive Dashboard
+Master Data → Production Records → Material Lookup → Cost Pools → Dynamic Allocation Engine → True SKU Cost → Executive Dashboard
+
 ```
 
-Every calculation flows in a single direction:
-
-**Inputs → Validation → Allocation → Unit Cost → Decision Dashboard**
-
-This minimizes circular references and makes formula auditing significantly easier.
-
----
-
-## Decision Framework
-
-The workbook supports several recurring manufacturing decisions rather than producing static reports.
-
-### Product Pricing
-
-Evaluate whether current selling prices remain sufficient after incorporating actual production costs instead of relying solely on BOM estimates.
-
-### Product Portfolio Optimization
-
-Identify products that consume disproportionate manufacturing resources relative to their contribution margin.
-
-### Cost Reduction Prioritization
-
-Separate material inflation from labor, utilities, depreciation, and overhead so improvement efforts focus on the largest cost drivers.
-
-### Capacity Planning
-
-Understand how production volume influences allocated overhead and resulting unit economics.
-
-### Financial Planning
-
-Generate executive KPIs that connect operational production data with financial reporting periods while maintaining consistent allocation logic.
-
----
-
-## Design Principles
-
-The workbook intentionally follows several implementation principles throughout the model.
-
-- Dynamic array formulas instead of copied formulas.
-- Zero hardcoded prices or allocation coefficients.
-- Centralized assumptions.
-- Transparent calculations without VBA.
-- Auditable worksheet dependencies.
-- Modular sheet responsibilities.
-- Expandable architecture for additional SKUs and accounting periods.
-- Formula-first implementation suitable for review and customization.
-
----
+This unidirectional flow prevents circular references and makes formula auditing simple for external accountants.
 
 ## Modern Excel Functions Used
 
-The implementation primarily relies on Microsoft 365 dynamic array capabilities, including:
+Built exclusively for Microsoft 365, the toolkit leverages Dynamic Arrays to eliminate the need for VBA macros or dragging formulas down rows:
 
-- XLOOKUP
-- FILTER
-- UNIQUE
-- LET
-- LAMBDA
-- MAP
-- HSTACK
-- SUMIFS
-- SUMPRODUCT
-- INDEX
-- COUNTA
+* `XLOOKUP`, `FILTER`, `UNIQUE`, `LET`, `LAMBDA`, `MAP`, `HSTACK`, `SUMIFS`
 
-These functions allow the workbook to expand automatically as additional production records and SKUs are introduced without requiring manual formula copying.
-## Three Analytical Traps This Workbook Helps Avoid
-
-### 1. Confusing Standard Cost with Actual Manufacturing Cost
-
-A well-maintained BOM only describes what *should* be consumed under standard conditions. It says nothing about what actually happened during production.
-
-Real manufacturing profitability depends on:
-
-- Actual labor utilization
-- Factory overhead
-- Utilities
-- Equipment depreciation
-- Shared production resources
-
-Treating standard BOM cost as total manufacturing cost often results in products that appear profitable on paper while destroying margin in production.
-
----
-
-### 2. Looking Only at Monthly Financial Totals
-
-Financial statements answer:
-
-> "How much did the factory spend?"
-
-Operational decisions require answering:
-
-> "Which products consumed those resources?"
-
-Without SKU-level allocation, pricing, production scheduling, and product portfolio decisions become largely guesswork.
-
-This workbook bridges accounting summaries and operational execution by translating period expenses into product-level economics.
-
----
-
-### 3. Optimizing the Wrong Cost Driver
-
-When profitability declines, organizations frequently focus on the most visible expense.
-
-That may not be the largest problem.
-
-For example:
-
-- Raw material inflation may represent only 4% of total cost growth.
-- Utility consumption may remain unchanged.
-- Packaging redesign may save less than expected.
-- Labor utilization or equipment utilization may actually explain most margin erosion.
-
-Separating every cost component allows improvement efforts to target the largest operational constraint first.
-
----
-
-## Example Decision Scenario
-
-Consider a factory producing five beverage SKUs.
-
-Monthly accounting reports indicate that manufacturing expenses increased by approximately 12%.
-
-Without allocation, management only knows total factory spending increased.
-
-After importing production records and monthly operating costs into this workbook:
-
-- Actual production quantities are summarized automatically.
-- Labor, utilities, and manufacturing overhead are allocated consistently across all SKUs.
-- Unit manufacturing cost is recalculated using current production volume.
-- Gross margin is compared against the target threshold defined in **Assumptions**.
-
-The result may show that only one premium SKU is responsible for most of the margin deterioration because its relatively small production volume absorbs a disproportionate share of fixed manufacturing expenses.
-
-Instead of increasing prices across the entire product portfolio, management can evaluate alternative production schedules, minimum production batch sizes, or packaging adjustments for that single SKU.
-
-The decision changes because the underlying economics become visible.
-
----
-
-### Formula Reference
-
-<details>
-<summary>Dynamic Array Architecture</summary>
-
-The workbook is built around Microsoft 365 Dynamic Arrays to eliminate manual formula copying.
-
-Representative functions include:
-
-- `UNIQUE()`
-- `FILTER()`
-- `MAP()`
-- `LAMBDA()`
-- `LET()`
-- `HSTACK()`
-
-These functions automatically expand as new production records or SKUs are added, supporting a zero-maintenance calculation model.
-
-</details>
-
-<details>
-<summary>Cost Allocation Logic</summary>
-
-Manufacturing cost is constructed from multiple layers:
-
-```
-Unit Manufacturing Cost
-
-=
-Standard Material Cost
-+ Packaging Cost
-+ Allocated Direct Labor
-+ Allocated Manufacturing Overhead
-+ Allocated Utilities
-```
-
-Allocation methods are parameterized through the **Assumptions** worksheet, allowing the workbook to support different operational costing policies without rewriting formulas.
-
-</details>
-
-<details>
-<summary>Workbook Expansion Strategy</summary>
-
-Instead of fixed ranges, worksheets reference dynamically expanding datasets using patterns such as:
-
-```
-INDEX(...)
-COUNTA(...)
-SUMIFS(...)
-XLOOKUP(...)
-```
-
-This approach allows additional accounting periods, production records, and SKUs to be appended without rebuilding calculations.
-
-</details>
-
----
-
-### Validation Rules
-
-The workbook includes validation logic designed to improve reliability before management decisions are made.
-
-Validation includes:
-
-- Unique SKU verification.
-- Missing BOM component detection.
-- Invalid material or packaging references.
-- Duplicate production record detection.
-- Missing accounting period identification.
-- Allocation denominator protection.
-- Division-by-zero handling.
-- Lookup failure handling.
-- Margin threshold evaluation.
-- Dashboard consistency checks between allocation outputs and executive summaries.
-
-These validation rules are intended to identify data quality issues before they influence pricing, profitability analysis, or management reporting.
-
-</details>
-
----
-
-## Other Tools in This Series
-
-If you work with operational decision support, you may also find these projects useful:
-
-- Retail & Multi-Store Inventory Management Toolkit
-- Demand-Adaptive Inventory Planning Toolkit
-- Restaurant Menu Configuration & Modifier Pricing Toolkit
-- Cross-Border VAT Compliance Dashboard
-- Residential Transitional Loan Sizer & Pricer
-- Real Estate Development Financial Model
-- Construction BOQ & Cost Estimation Toolkit
+As you paste thousands of new production records or add new SKUs, the analysis ranges expand automatically—a true zero-maintenance model.
 
 ---
 
 ## License
 
 This project is licensed under the **Apache License 2.0**.
-
-You are welcome to use, modify, and distribute this project in accordance with the terms of the Apache 2.0 License.
-
 See the **LICENSE** file for the complete license text.
-
----
-
-## Contributing
-
-Bug reports, calculation reviews, workflow improvements, and manufacturing cost methodology discussions are welcome.
-
-If you discover calculation inconsistencies or have suggestions for improving allocation logic, validation rules, or workbook usability, please open an Issue or submit a Pull Request.
-
----
 
 ## Disclaimer
 
-This workbook is provided as a decision-support framework rather than a replacement for professional accounting systems or financial advice.
-
-Manufacturing accounting policies, tax treatment, depreciation schedules, and allocation methodologies vary by organization and jurisdiction. Users should validate assumptions and costing policies before applying results to financial reporting or pricing decisions.
-
-Instead of increasing production volume, management can investigate packaging optimization, pricing adjustments, production scheduling, or process improvements before scaling output.
-
-This workbook packages that analytical reasoning into a reusable decision framework rather than another collection of spreadsheets.
+This workbook is a decision-support framework. Manufacturing accounting policies, inventory valuation methods (FIFO/LIFO), and tax depreciation schedules vary globally. Always consult a certified CPA before applying these outputs to official tax filings or audited financial statements.
