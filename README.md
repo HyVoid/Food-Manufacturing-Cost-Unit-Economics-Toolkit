@@ -8,7 +8,7 @@
 
 **No signup. No installation. Free in your browser.**
 
-Try the browser version for quick COGS estimates. If you need to save your factory data securely for monthly reporting, you can download the full Excel workbook with a 7-day money-back guarantee.
+Try the browser version for quick COGS estimates. If you need to save your factory data securely for monthly reporting, you can download the full Excel workbook with a 30-day, no-questions-asked money-back guarantee.
 
 > 🌐 **Test the Calculator** → [Try the Free Food Manufacturing Cost Web Demo](https://hyvoid.github.io/Food-Manufacturing-Cost-Unit-Economics-Toolkit/)
 >
