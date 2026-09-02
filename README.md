@@ -12,7 +12,7 @@ Try the browser version for quick COGS estimates. If you need to save your facto
 
 > 🌐 **Test the Calculator** → [Try the Free Food Manufacturing Cost Web Demo](https://hyvoid.github.io/food-manufacturing-cost-calculator-excel/)
 >
-> 📥 **Get the Spreadsheet** → [Download the Full Unit Economics Excel Template (30-Day Guarantee)](https://alexhasgreatestuff.gumroad.com/l/wtcwzb?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=food-manufacturing-unit-economics)
+> 📥 **Get the Spreadsheet** → [Download the Full Unit Economics Excel Template (30-Day Guarantee)](https://www.theseusworkshop.com/l/wtcwzb?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=food-manufacturing-unit-economics)
 
 Use whichever format fits your production workflow. The browser version is ideal for a single-session margin check, while the Excel version provides a fully transparent, formula-based financial model suitable for continuous FP&A (Financial Planning & Analysis) and daily operations.
 
@@ -48,7 +48,7 @@ Navigate to the Executive Dashboard, Unit Cost Analysis, or Margin Spending Map.
 At the close of a new accounting period, replace the old operational data with the latest month's production numbers. The dashboard updates automatically, providing a rolling view of your factory's financial health.
 
 ### Step 5: Scale from Free Trial to Permanent Excel Workflow (Action)
-> **Ready to standardize your monthly reporting?** After testing your numbers in the single-session browser tool, [Download the Excel Workbook Version](https://alexhasgreatestuff.gumroad.com/l/wtcwzb) to securely save your historical factory data, customize the allocation formulas, and permanently integrate this toolkit into your company’s monthly financial close process.
+> **Ready to standardize your monthly reporting?** After testing your numbers in the single-session browser tool, [Download the Excel Workbook Version](https://www.theseusworkshop.com/l/wtcwzb) to securely save your historical factory data, customize the allocation formulas, and permanently integrate this toolkit into your company’s monthly financial close process.
 
 ---
 
