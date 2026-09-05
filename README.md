@@ -48,7 +48,7 @@ Navigate to the Executive Dashboard, Unit Cost Analysis, or Margin Spending Map.
 At the close of a new accounting period, replace the old operational data with the latest month's production numbers. The dashboard updates automatically, providing a rolling view of your factory's financial health.
 
 ### Step 5: Scale from Free Trial to Permanent Excel Workflow (Action)
-> **Ready to standardize your monthly reporting?** After testing your numbers in the single-session browser tool, [Download the Excel Workbook Version](https://www.theseusworkshop.com/l/wtcwzb) to securely save your historical factory data, customize the allocation formulas, and permanently integrate this toolkit into your company’s monthly financial close process.
+> **Ready to standardize your monthly reporting?** After testing your numbers in the single-session browser tool, [Download the Excel Workbook Version](https://www.theseusworkshop.com/l/wtcwzb?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=food-manufacturing-cost-calculator) to securely save your historical factory data, customize the allocation formulas, and permanently integrate this toolkit into your company’s monthly financial close process.
 
 ---
 
